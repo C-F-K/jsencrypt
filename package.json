@@ -1,7 +1,7 @@
 {
-  "name": "jsencrypt",
-  "version": "3.0.0-rc.1",
-  "description": "A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.",
+  "name": "jsencrypt-fix",
+  "version": "3.0.1-rc.1",
+  "description": "A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation. (Fixing browser compatibility issues)",
   "license": "MIT",
   "main": "bin/jsencrypt.js",
   "scripts": {
@@ -20,6 +20,10 @@
     {
       "name": "Julio",
       "url": "https://github.com/jmgaya"
+    },
+    {
+      "name": "CFK",
+      "url": "https://github.com/C-F-K"
     }
   ],
   "homepage": "http://www.travistidwell.com/jsencrypt",
