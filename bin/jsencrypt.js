@@ -2621,7 +2621,6 @@ function am3(i, x, w, j, c, n) {
     }
     return c;
 }
-
 if (j_lm && navigator && (navigator.appName == "Microsoft Internet Explorer")) {
     BigInteger.prototype.am = am2;
     dbits = 30;
@@ -5357,7 +5356,7 @@ var JSEncrypt = /** @class */ (function () {
         // Return the private representation of this key.
         return this.getKey().getPublicBaseKeyB64();
     };
-    JSEncrypt.version = "3.0.0-rc.1";
+    JSEncrypt.version = "3.0.2-rc.1";
     return JSEncrypt;
 }());
 

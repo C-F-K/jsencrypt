@@ -1,11 +1,11 @@
 {
   "name": "jsencrypt-fix",
-  "version": "3.0.1-rc.1",
+  "version": "3.0.2-rc.1",
   "description": "A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation. (Fixing browser compatibility issues)",
   "license": "MIT",
   "main": "bin/jsencrypt.js",
   "scripts": {
-    "prepublish": "node_modules/gulp/bin/gulp.js"
+    "prepublish": "node node_modules/gulp/bin/gulp.js"
   },
   "contributors": [
     {
@@ -29,10 +29,10 @@
   "homepage": "http://www.travistidwell.com/jsencrypt",
   "repository": {
     "type": "git",
-    "url": "git://github.com/travist/jsencrypt.git"
+    "url": "https://github.com/C-F-K/jsencrypt"
   },
   "bugs": {
-    "url": "http://github.com/travist/jsencrypt/issues"
+    "url": "https://github.com/C-F-K/jsencrypt/issues"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
