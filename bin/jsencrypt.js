@@ -63,6 +63,8 @@ function cbit(x) {
 }
 //#endregion BIT_OPERATIONS
 
+
+
 var b64map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 var b64pad = "=";
 function hex2b64(h) {
@@ -2621,6 +2623,12 @@ function am3(i, x, w, j, c, n) {
     }
     return c;
 }
+
+if( typeof window === "undefined" )
+  var window = {};
+if( typeof navigator === "undefined" )
+  var navigator = {}; 
+
 if (j_lm && navigator && (navigator.appName == "Microsoft Internet Explorer")) {
     BigInteger.prototype.am = am2;
     dbits = 30;
@@ -5356,7 +5364,7 @@ var JSEncrypt = /** @class */ (function () {
         // Return the private representation of this key.
         return this.getKey().getPublicBaseKeyB64();
     };
-    JSEncrypt.version = "3.0.2-rc.1";
+    JSEncrypt.version = "3.0.3-rc.1";
     return JSEncrypt;
 }());
 

@@ -1,6 +1,6 @@
 {
   "name": "jsencrypt-fix",
-  "version": "3.0.2-rc.1",
+  "version": "3.0.4",
   "description": "A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation. (Fixing browser compatibility issues)",
   "license": "MIT",
   "main": "bin/jsencrypt.js",
